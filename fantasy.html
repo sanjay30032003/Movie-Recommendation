@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-nav .nav-link {
+            font-weight: bold; 
+        }
+        .custom-img {
+            width: 500px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-dark">Best Movies Recommendation</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="home.html">Home</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="signin.html" target="_blank">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Select Your Favourite Genre</h2>
+        <div class="dropdown text-center">
+            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Fantasy
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="movies.html">Genre</a></li>
+                <li><a class="dropdown-item" href="action.html">Action</a></li>
+                <li><a class="dropdown-item" href="comedy.html">Comedy</a></li>
+                <li><a class="dropdown-item" href="drama.html">Drama</a></li>
+                <li><a class="dropdown-item" href="romance.html">Romance</a></li>
+                <li><a class="dropdown-item" href="fantasy.html">Fantasy</a></li>
+                <li><a class="dropdown-item" href="animation.html">Animation</a></li>
+                <li><a class="dropdown-item" href="horror.html">Horror</a></li>
+                <li><a class="dropdown-item" href="sci-fi.html">Science Fiction</a></li>
+                <li><a class="dropdown-item" href="thriller.html">Thriller</a></li>
+                <li><a class="dropdown-item" href="biography.html">Biography</a></li>
+                <li><a class="dropdown-item" href="musical.html">Musical</a></li>
+                <li><a class="dropdown-item" href="mystery.html">Mystery</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <article class="container my-2">
+        <h2 class="text-center mb-4">Top Fantasy Movies</h2>
+    
+        <!-- Pan's Labyrinth -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Fantasy/panslabyrinth.jpg" class="img-fluid custom-img my-3" alt="Pan's Labyrinth">
+                <h1 class="movie-title my-2">Pan's Labyrinth (2006)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>A young girl discovers a mysterious labyrinth and meets a faun who sets her on a quest to prove herself as the reincarnation of a lost princess.</p>
+                <h4>Review</h4>
+                <p>This dark fairy tale by Guillermo del Toro is visually stunning and deeply poignant. It beautifully blends fantasy and reality, exploring themes of innocence and sacrifice. The cinematography and storytelling are exceptional. A haunting masterpiece that lingers long after viewing.</p>
+            </div>
+        </div>
+    
+        <!-- Harry Potter Franchise -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Fantasy/fantas.jpeg" class="img-fluid custom-img my-3" alt="Harry Potter Franchise">
+                <h1 class="movie-title my-2">Harry Potter Franchise (2001-2011)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>Follow the journey of a young wizard, Harry Potter, and his friends as they battle the dark forces led by the dark wizard Voldemort.</p>
+                <h4>Review</h4>
+                <p>This iconic franchise captivates audiences with its enchanting world and relatable characters. Each installment builds upon the last, delivering thrilling adventures and emotional depth. The performances are memorable, especially from the young leads. A magical saga that resonates across generations.</p>
+            </div>
+        </div>
+    
+        <!-- Lord of the Rings Trilogy -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Fantasy/lordoftherings.jpg" class="img-fluid custom-img my-3" alt="Lord of the Rings Trilogy">
+                <h1 class="movie-title my-2">Lord of the Rings Trilogy (2001-2003)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>Follow Frodo Baggins and his companions as they embark on a perilous journey to destroy the One Ring and save Middle-earth from darkness.</p>
+                <h4>Review</h4>
+                <p>Peter Jackson’s adaptation is a monumental achievement in filmmaking. The epic scale, rich storytelling, and stunning visuals create an immersive experience. The performances are outstanding, particularly by Ian McKellen and Elijah Wood. A timeless tale of friendship and bravery.</p>
+            </div>
+        </div>
+    
+        <!-- Narnia Movies -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Fantasy/narnia.jpeg" class="img-fluid custom-img my-3" alt="Narnia Movies">
+                <h1 class="movie-title my-2">Narnia Movies (2005-2010)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>Four siblings discover a magical wardrobe that transports them to the land of Narnia, where they must battle the White Witch to save the kingdom.</p>
+                <h4>Review</h4>
+                <p>These adaptations of C.S. Lewis's beloved novels bring enchantment to the screen. The visuals are stunning, and the characters are well-crafted. The blend of adventure and moral lessons makes it a compelling watch for all ages. A heartwarming exploration of bravery and sacrifice.</p>
+            </div>
+        </div>
+    
+        <!-- Pirates of the Caribbean -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Fantasy/Piratesofthecarribean.jpg" class="img-fluid custom-img my-3" alt="Pirates of the Caribbean">
+                <h1 class="movie-title my-2">Pirates of the Caribbean Franchise (2003-2017)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>Join Captain Jack Sparrow on thrilling escapades across the high seas, facing curses, undead pirates, and other supernatural foes.</p>
+                <h4>Review</h4>
+                <p>This franchise is a wild ride filled with humor, adventure, and memorable characters. Johnny Depp's portrayal of Jack Sparrow is iconic, bringing eccentricity and charm. The action sequences are exhilarating, making it a must-watch for adventure lovers.</p>
+            </div>
+        </div>
+    </article>
+    
+    <footer class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>2024 Movie Genres. All Rights Reserved.</p>
+                </div>
+                <div class="col">
+                    <ul class="list-inline text-end">
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Terms of Service</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

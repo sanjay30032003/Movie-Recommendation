@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-nav .nav-link {
+            font-weight: bold; 
+        }
+        .custom-img {
+            width: 500px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-dark">Best Movies Recommendation</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="home.html">Home</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white me-3" href="signin.html" target="_blank">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Select Your Favourite Genre</h2>
+        <div class="dropdown text-center">
+            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Thriller
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="movies.html">Genre</a></li>
+                <li><a class="dropdown-item" href="action.html">Action</a></li>
+                <li><a class="dropdown-item" href="comedy.html">Comedy</a></li>
+                <li><a class="dropdown-item" href="drama.html">Drama</a></li>
+                <li><a class="dropdown-item" href="romance.html">Romance</a></li>
+                <li><a class="dropdown-item" href="fantasy.html">Fantasy</a></li>
+                <li><a class="dropdown-item" href="animation.html">Animation</a></li>
+                <li><a class="dropdown-item" href="horror.html">Horror</a></li>
+                <li><a class="dropdown-item" href="sci-fi.html">Science Fiction</a></li>
+                <li><a class="dropdown-item" href="thriller.html">Thriller</a></li>
+                <li><a class="dropdown-item" href="biography.html">Biography</a></li>
+                <li><a class="dropdown-item" href="musical.html">Musical</a></li>
+                <li><a class="dropdown-item" href="mystery.html">Mystery</a></li>
+            </ul>
+        </div>
+    </section>
+    <article class="container my-2">
+        <h2 class="text-center mb-4">Top Thriller Movies</h2>
+
+        <!-- Argo -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Thriller/argo.jpg" class="img-fluid custom-img my-3" alt="Argo">
+                <h1 class="movie-title my-2">Argo (2012)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>Based on true events, a CIA agent concocts a risky plan to rescue American hostages from Iran.</p>
+                <h4>Review</h4>
+                <p>A tense and thrilling ride that masterfully blends historical events with Hollywood flair. Ben Affleck's direction is sharp and engaging, keeping the audience invested throughout. The film's pacing and tension build to a nail-biting climax. It's both entertaining and thought-provoking, highlighting the risks taken for freedom. A powerful reminder of the complexities of international relations.</p>
+            </div>
+        </div>
+
+        <!-- A Quiet Place -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Thriller/quiteplace.jpg" class="img-fluid custom-img my-3" alt="A Quiet Place">
+                <h1 class="movie-title my-2">A Quiet Place (2018)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>A family must live in silence to avoid mysterious creatures that hunt by sound.</p>
+                <h4>Review</h4>
+                <p>This innovative thriller combines horror with deep emotional storytelling. The performances are outstanding, especially from Emily Blunt and John Krasinski. The tension is palpable throughout, making every scene suspenseful. The unique premise and execution set it apart from typical horror films. It's an unforgettable cinematic experience that lingers long after viewing.</p>
+            </div>
+        </div>
+
+        <!-- Escape Room -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Thriller/escaperoom.jpg" class="img-fluid custom-img my-3" alt="Escape Room">
+                <h1 class="movie-title my-2">Escape Room (2019)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>Six strangers find themselves in a maze of deadly escape rooms, where they must solve puzzles to survive.</p>
+                <h4>Review</h4>
+                <p>This film effectively combines psychological thrills with survival horror. The unique premise keeps viewers guessing, as the puzzles are both clever and deadly. Strong character dynamics add depth to the story, making their fates impactful. The tension builds steadily, leading to an exhilarating climax. A fresh take on the horror genre that keeps you engaged until the last minute.</p>
+            </div>
+        </div>
+
+        <!-- The Revenant -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Thriller/revenant.jpeg" class="img-fluid custom-img my-3" alt="The Revenant">
+                <h1 class="movie-title my-2">The Revenant (2015)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>In the 1820s, a frontiersman fights for survival and seeks revenge after being left for dead by his companions.</p>
+                <h4>Review</h4>
+                <p>This visceral film combines stunning visuals with an intense survival story. Leonardo DiCaprio delivers a career-defining performance that captivates the audience. The cinematography is breathtaking, immersing viewers in the harsh wilderness. The themes of revenge and resilience resonate deeply throughout the narrative. It's a brutal yet beautiful portrayal of the human spirit, making it a modern classic.</p>
+            </div>
+        </div>
+        
+        <!-- LA Confidential -->
+        <div class="mb-4">
+            <div class="text-center">
+                <img src="./images/Thriller/laconfidental.jpg" class="img-fluid custom-img my-3" alt="LA Confidential">
+                <h1 class="movie-title my-2">LA Confidential (1997)</h1>
+            </div>
+            <div class="my-4">
+                <h4>Synopsis</h4>
+                <p>Three detectives in 1950s Los Angeles navigate a web of corruption, scandal, and murder.</p>
+                <h4>Review</h4>
+                <p>A masterful neo-noir film with rich character development and a gripping plot. The portrayal of 1950s LA is both glamorous and grim. The performances are stellar, particularly Kevin Spacey and Russell Crowe. This film is a timeless classic that continues to resonate. It’s a must-watch for any thriller aficionado.</p>
+            </div>
+        </div>
+
+    </article>
+    
+    <footer class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>2024 Movie Genres. All Rights Reserved.</p>
+                </div>
+                <div class="col">
+                    <ul class="list-inline text-end">
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Terms of Service</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
